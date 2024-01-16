@@ -17,7 +17,7 @@ public:
 
     void push(const T& value);
     void pop();
-    const T& peek() const;
+    const T& peek() const;  // peek() returns a const reference to the top element
     bool isEmpty() const;
     size_t getSize() const;
 };
