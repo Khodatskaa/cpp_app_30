@@ -104,3 +104,5 @@ void LinkedList<T>::Show() const {
 
 	std::cout << std::endl;
 }
+
+template class LinkedList<int>;
