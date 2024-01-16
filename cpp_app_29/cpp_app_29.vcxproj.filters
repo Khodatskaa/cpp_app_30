@@ -4,10 +4,21 @@
     <Filter Include="Main">
       <UniqueIdentifier>{27d1cc0f-426a-4e95-905b-3c80225e2a94}</UniqueIdentifier>
     </Filter>
+    <Filter Include="LinkedList">
+      <UniqueIdentifier>{56cf251c-7456-44f7-a751-72879a71ee0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>LinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedList.h">
+      <Filter>LinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
