@@ -131,6 +131,7 @@
     <ClCompile Include="UpdatedList.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Node.h" />
     <ClInclude Include="UpdatedList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
