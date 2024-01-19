@@ -1,8 +1,8 @@
 #include "Stack.h"
-#include <iostream>
 
 int main() {
-    Stack<int> myStack(5);
+
+    Stack<int> myStack;
 
     myStack.push(1);
     myStack.push(2);
