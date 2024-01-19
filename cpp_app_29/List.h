@@ -1,8 +1,16 @@
 #ifndef List_h
 #define List_h
 
-#include "Node.h"
 #include <iostream>
+
+template <typename T>
+class Node {
+public:
+    T data;
+    Node* next;
+
+    Node(const T& value) : data(value), next(nullptr) {}
+};
 
 template <typename T>
 class List {
